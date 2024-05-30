@@ -1,0 +1,32 @@
+.item-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .item-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .item-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .item-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .add-item-form {
+    margin-top: 20px;
+  }
+  
